@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+/* grid 4 columns - 1st / last 20%, 2nd / 3rd 30% */
+/* 4 rows - 1st 10%, 3 30% */
+.main {
+  display: grid;
+  grid-template: 1fr 3fr 3fr 3fr / 20% 30% 30% 20%;
+
+}
+
+#sidebar {
+  grid-row: 1 / -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
