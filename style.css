@@ -36,9 +36,14 @@ body {
 
 }
 
-.sidebar-item
+.first-six, .last-three, .break1, .break2 {
+  height: 20px;
+}
 
-
+#header {
+  display: grid;
+  grid-template: 30px 60px / 6fr 4fr;
+}
 
 
 
